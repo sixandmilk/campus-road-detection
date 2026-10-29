@@ -1,0 +1,35 @@
+# Python / IDE caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.idea/
+.vscode/
+
+# Virtual environments and local environment files
+.venv/
+venv/
+env/
+.conda/
+.env
+.env.*
+
+# Datasets: keep only the checked-in project configuration template
+datasets/**
+!datasets/campus_road/
+!datasets/campus_road/data.yaml
+
+# Training / inference outputs and model weights
+runs/
+weights/
+*.pt
+*.onnx
+*.engine
+*.torchscript
+*.safetensors
+*.cache
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db

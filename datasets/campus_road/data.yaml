@@ -1,0 +1,15 @@
+# 这是项目的数据集配置模板。
+# 请先确认原始 YOLO 标签中的类别编号与下面的 names 顺序完全一致：
+# 0=crack, 1=manhole, 2=pothole, 3=speed_bump。
+# 如果原始标签不是这个映射，请先整理标签或调整 names（不要直接开始训练）。
+
+path: D:/lly/road/data
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: pothole
+  1: manhole
+  2: speed_bump
+  3: crack
